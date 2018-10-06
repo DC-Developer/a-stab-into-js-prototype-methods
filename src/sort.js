@@ -1,8 +1,8 @@
-var sort = function(array) {
+var array = function(array) {
   this.cache = Array.isArray(array) ? array : [];
 };
 
-sort.prototype = {
+array.prototype = {
   log: function() {
     console.log(this.cache);
   },
