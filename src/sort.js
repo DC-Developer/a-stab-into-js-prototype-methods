@@ -16,24 +16,24 @@ sort.prototype = {
                 not equal, so we can determine the order of the parameters being
                 passed in from the anonymous callback.
 
-                    ** If it is not equal, determine if the passed in callback
+                    * If it is not equal, determine if the passed in callback
                        is equal to the defined ascending or descending callbacks.
 
-                    ** If it matches the defined ascending function, return a string
+                    * If it matches the defined ascending function, return a string
                        "ascending".
 
-                    ** If it matches the defined descending function, return a string
+                    * If it matches the defined descending function, return a string
                        "descending"
 
               --Use logic to determine if all indexes in the array are
                 equal.
 
-                    **If second conditional is true, just return the array without
+                    *If second conditional is true, just return the array without
                       mutating it.
 
       */
 
-      /***
+      /**
         checkOrder: function that takes in two immediate indexes of an array and uses
         those arguments to test if the passed in callback is equal to an ascending or
         descending function.
